@@ -1,0 +1,28 @@
+
+.hero-buttons {
+  display: flex;
+  gap: 20px; 
+  margin-top: 30px;
+}
+
+
+.btn-portfolio {
+  padding: 12px 24px;
+  border: 1.5px solid #5eead4; 
+  border-radius: 4px;
+  background: transparent;
+  color: white;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+.btn-portfolio:hover {
+  background-color: rgba(94, 234, 212, 0.1); 
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 15px rgba(94, 234, 212, 0.2);
+}

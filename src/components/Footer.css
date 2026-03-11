@@ -1,0 +1,40 @@
+
+.footer {
+  background-color: #020c1b; 
+  color: #a8b2d1; 
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 1px solid rgba(100, 255, 218, 0.1);
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.social-links {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #64ffda;
+  transform: translateY(-3px);
+}
+
+.copyright {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.heart {
+  color: #e31b23;
+}
