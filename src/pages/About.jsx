@@ -7,6 +7,9 @@ const About = () => {
     <section className="about-section">
   <h2>01. À propos de moi</h2>
   <p>Je suis <strong>Mamadou Lamine</strong>...</p>
+  <div class="profile-container">
+   <img src="ma-photo.jpeg" alt="Photo de profil de Mamadou Lamine" className="profile-image" />
+</div>
 
   <h3>Technologies que j'utilise :</h3>
   

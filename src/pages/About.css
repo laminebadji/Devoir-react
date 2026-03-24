@@ -57,7 +57,7 @@
 }
 
 .tech-card img {
-  width: 50px; /* Taille fixée pour que tous les logos soient identiques */
+  width: 50px; 
   height: 50px;
   object-fit: contain;
   margin-bottom: 10px;
@@ -68,39 +68,58 @@
   font-weight: 600;
   color: #666;
 }
-/* Conteneur principal des technos */
+
 .tech-container {
-  display: flex;            /* Aligne les éléments horizontalement */
-  flex-wrap: wrap;         /* Permet de passer à la ligne sur mobile */
-  gap: 25px;                /* Espace entre chaque carte */
+  display: flex;           
+  flex-wrap: wrap;         
+  gap: 25px;                
   margin-top: 30px;
-  justify-content: flex-start; /* Aligne au début (gauche) */
+  justify-content: flex-start
 }
 
-/* Style de chaque petite carte de techno */
+
 .tech-card {
   display: flex;
-  flex-direction: column;   /* Met le logo au-dessus du nom */
-  align-items: center;      /* Centre le logo et le texte */
-  background: rgba(255, 255, 255, 0.05); /* Fond très léger et sombre */
-  border: 1px solid rgba(255, 255, 255, 0.1); /* Bordure fine */
+  flex-direction: column;   
+  align-items: center;      
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.1); 
   padding: 15px;
-  border-radius: 12px;      /* Coins arrondis pro */
-  width: 100px;             /* Largeur fixe pour l'uniformité */
+  border-radius: 12px;    
+  width: 100px;             
   transition: all 0.3s ease;
 }
 
-/* Effet au survol */
+
 .tech-card:hover {
   transform: translateY(-5px);
-  background: rgba(94, 234, 212, 0.1); /* Teinte turquoise au survol */
+  background: rgba(94, 234, 212, 0.1); 
   border-color: #5eead4;
 }
 
-/* Style du nom de la technologie */
+
 .tech-card p {
   margin-top: 10px;
   font-size: 0.9rem;
   font-weight: 500;
-  color: #5eead4;            /* Ton turquoise pour le texte */
+  color: #5eead4;            
+}
+.profile-container {
+    text-align: center; /* Centre la photo horizontalement */
+    margin: 20px 0;
+}
+
+.profile-pic {
+    width: 150px;              /* Largeur de la photo */
+    height: 150px;             /* Hauteur égale à la largeur pour un cercle parfait */
+    border-radius: 50%;        /* Rend la photo ronde */
+    object-fit: cover;         /* Empêche l'image d'être écrasée si elle n'est pas carrée */
+    border: 3px solid #3498db; /* Ajoute une petite bordure bleue stylée */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre légère */
+    transition: transform 0.3s; /* Prépare l'animation au survol */
+}
+
+/* Petit effet sympa quand on passe la souris dessus */
+.profile-pic:hover {
+    transform: scale(1.05);    /* Grossit légèrement la photo */
 }

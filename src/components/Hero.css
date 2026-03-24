@@ -1,17 +1,15 @@
 .hero-container {
-  background: transparent; /* TRÈS IMPORTANT : fond transparent pour voir les particules */
+  background: transparent; 
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 0 20px;
-  /* Supprime la hauteur fixe si tu l'avais mise (ex: height: 100vh), 
-     laisse le contenu gérer la hauteur ou utilise min-height: 100vh; */
+  
   min-height: 100vh; 
 }
 
-/* Assure-toi que le texte est bien lisible par-dessus */
 .hero-name {
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Ajoute une ombre légère pour le contraste */
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5); 
 }

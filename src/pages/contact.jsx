@@ -13,21 +13,21 @@ const Contact = () => {
         </p>
 
         <div className="contact-methods">
-          {/* Email */}
+          
           <a href="mailto:ton-email@gmail.com" className="contact-card">
             <div className="icon"></div>
             <h3>Email</h3>
             <p>laminebadji0417@gmail.com</p>
           </a>
 
-          {/* Téléphone */}
+          
           <a href="tel:+221XXXXXXXXX" className="contact-card">
             <div className="icon"></div>
             <h3>Téléphone</h3>
             <p>+221 764182399</p>
           </a>
 
-          {/* LinkedIn ou WhatsApp */}
+        
           <a href="https://wa.me/221XXXXXXXXX" target="_blank" rel="noreferrer" className="contact-card">
             <div className="icon"></div>
             <h3>WhatsApp</h3>

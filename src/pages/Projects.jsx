@@ -29,7 +29,7 @@ const myProjects = [
           <div className="project-card" key={project.id}>
             <img src = {project.image} alt = {project.title} className="project-img"/>
             <div className="project-image-placeholder" style={{backgroundColor: project.color}}>
-               {/* Ici on mettra ton image plus tard */}
+               
                <span>Aperçu</span>
             </div>
             <div className="project-details">
@@ -46,5 +46,5 @@ const myProjects = [
   );
 };
 
-// TRÈS IMPORTANT : L'export unique en bas
+
 export default Projects;
