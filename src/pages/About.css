@@ -110,16 +110,16 @@
 }
 
 .profile-pic {
-    width: 150px;              /* Largeur de la photo */
-    height: 150px;             /* Hauteur égale à la largeur pour un cercle parfait */
-    border-radius: 50%;        /* Rend la photo ronde */
+    width: 10px;              /* Largeur de la photo */
+    height: 10px;             /* Hauteur égale à la largeur pour un cercle parfait */
+    border-radius: 1%;        /* Rend la photo ronde */
     object-fit: cover;         /* Empêche l'image d'être écrasée si elle n'est pas carrée */
-    border: 3px solid #3498db; /* Ajoute une petite bordure bleue stylée */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Ajoute une ombre légère */
+    border: 2cap solid #3498db; /* Ajoute une petite bordure bleue stylée */
+    box-shadow: 0px 4px 5cap rgba(0, 0, 0, 0.2); /* Ajoute une ombre légère */
     transition: transform 0.3s; /* Prépare l'animation au survol */
 }
 
 /* Petit effet sympa quand on passe la souris dessus */
 .profile-pic:hover {
-    transform: scale(1.05);    /* Grossit légèrement la photo */
+    transform: scale(1.5rem);    /* Grossit légèrement la photo */
 }

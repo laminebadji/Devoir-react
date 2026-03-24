@@ -6,14 +6,14 @@ const myProjects = [
   {
     id: 1,
     title: "E-Commerce App",
-    image: "https://via.placeholder.com/300x180/112240/5eead4?text=E-Commerce",
+    image: "ecommerce.jpg",
     description: "Une application web performante avec React.",
     tech: ["React", "CSS3"]
   },
   {
     id: 2,
     title: "Portfolio Pro",
-    image: "https://via.placeholder.com/300x180/112240/5eead4?text=Portfolio",
+    image: "Portfolio.jpg",
     description: "Design moderne avec effet de flou.",
     tech: ["JavaScript", "HTML5"]
   }
